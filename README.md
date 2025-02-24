@@ -64,8 +64,6 @@ Recently, deep neural networks have been extensively explored in remote sensing 
 <img alt="" src="/images/Table3.png" style="display: inline-block;" />
 </div>
 
-#### Ablation results for the RSFI module on the StateHaze1K dataset with four configurations: (1) Base, (2) Base + BRCM, (3) Base + FREA, and (4) Base + BRCM + FREA. The first, second, and third rows display visual results for the StateHaze1K-Thin, StateHaze1K-Moderate, and StateHaze1K-Thick subsets, respectively
-
 ### EVALUATION OF APPLYING OUR DYNAMIC CHANNEL WEIGHTING PERCEPTUAL LOSS TO SEVERAL STATE-OF-THE-ART HAZE REMOVAL METHODS
 
 <div style="text-align: center">
@@ -76,9 +74,9 @@ Recently, deep neural networks have been extensively explored in remote sensing 
 
 ### Pretrained Weights✨ and Dataset🤗
 
-Download our model weights on Baidu cloud disk: https://pan.baidu.com/s/10DkhgxYrU0aem6f_ALYHZQ?pwd=lzms
+Download our model weights on Baidu cloud disk: 
 
-Download our test datasets on Baidu cloud disk: https://pan.baidu.com/s/1HK1oy4SjZ99N-Dh-8_s0hA?pwd=lzms
+Download our test datasets on Baidu cloud disk: 
 
 You can load these models to generate images via the codes in [test.py](test.py).
 
