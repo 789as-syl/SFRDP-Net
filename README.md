@@ -16,12 +16,12 @@ Recently, deep neural networks have been extensively explored in remote sensing 
 
 ### COMPARISON OF OUR METHOD AGAINST OTHERS ON THE SATEHAZE1K DATASET. ↑ INDICATES HIGHER IS BETTER, ↓ INDICATES LOWER IS BETTER.
 <div style="text-align: center">
-<img alt="" src="/images/thin.png" style="display: inline-block;" />
+<img alt="" src="/images/Table1.png" style="display: inline-block;" />
 </div>
 
 ### COMPARISON RESULTS OF OUR METHOD WITH OTHER ADVANCED METHODS ON THE RICE AND DHID DATASETS, INCLUDING PARAMETERS. ↑: LARGER IS BETTER. ↓: SMALLER IS BETTER.
 <div style="text-align: center">
-<img alt="" src="/images/moderate.png" style="display: inline-block;" />
+<img alt="" src="/images/Table2.png" style="display: inline-block;" />
 </div>
 
 ## Qualitative results🔥
@@ -56,6 +56,24 @@ Recently, deep neural networks have been extensively explored in remote sensing 
 <img alt="" src="/images/DHID.png" style="display: inline-block;" />
 </div>
 
+## Ablation results🔥
+
+### THE PSNR, SSIM AND MSE AT EACH STAGE OF THE ABLATION EXPERIMENT ARE CONDUCTED ON THE STATEHAZE1K DATASET. ↑: LARGER IS BETTER. ↓: SMALLER IS BETTER.
+
+<div style="text-align: center">
+<img alt="" src="/images/Table3.png" style="display: inline-block;" />
+</div>
+
+#### Ablation results for the RSFI module on the StateHaze1K dataset with four configurations: (1) Base, (2) Base + BRCM, (3) Base + FREA, and (4) Base + BRCM + FREA. The first, second, and third rows display visual results for the StateHaze1K-Thin, StateHaze1K-Moderate, and StateHaze1K-Thick subsets, respectively
+
+### EVALUATION OF APPLYING OUR DYNAMIC CHANNEL WEIGHTING PERCEPTUAL LOSS TO SEVERAL STATE-OF-THE-ART HAZE REMOVAL METHODS
+
+<div style="text-align: center">
+<img alt="" src="/images/Table4.png" style="display: inline-block;" />
+</div>
+
+#### Results on DHID testing images
+
 ### Pretrained Weights✨ and Dataset🤗
 
 Download our model weights on Baidu cloud disk: https://pan.baidu.com/s/10DkhgxYrU0aem6f_ALYHZQ?pwd=lzms
@@ -68,27 +86,20 @@ You can load these models to generate images via the codes in [test.py](test.py)
 
 ```
 ├── README.md
-├── /PSMB-Net/
+├── /images/
+├── /SFRDP-Net/
 |  ├── train.py
 |  ├── test.py
-|  ├── Model.py
-|  ├── Model_util.py
-|  ├── perceptual.py
-|  ├── train_dataset.py
-|  ├── test_dataset.py
-|  ├── utils_test.py
-|  ├── make.py
+|  ├── Net.py
+|  ├── config.json
+|  ├── data_utils.py
+|  ├── loss.py
+|  ├── metrics.py
+|  ├── model.py
+|  ├── option.py
 │  ├── /pytorch_msssim/
 │  │  ├── __init__.py
-│  ├── /datasets_train/
-│  │  ├── /hazy/
-│  │  ├── /clean/
-│  ├── /datasets_test/
-│  │  ├── /hazy/
-│  │  ├── /clean/
-│  ├── /output_result/
-├── LICENSE.txt
-└── /images/
+
 ```
 
 ### Train
