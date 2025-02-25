@@ -78,7 +78,7 @@ Download our model weights on Baidu cloud disk:
 
 Download our test datasets on Baidu cloud disk: 
 
-You can load these models to generate images via the codes in [test.py](test.py).
+You can load these models to generate images via the codes in [test.py](SFRDP-Net/test.py).
 
 ### Filetree
 
