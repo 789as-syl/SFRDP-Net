@@ -127,7 +127,8 @@ If our work assists your research, feel free to give us a star ⭐ or cite us us
   doi={10.1109/TGRS.2025.3543728}}
 
 ```
-
+H. Sun, Z. Yao, B. Du, J. Wan, D. Ren and L. Tong, "Spatial–Frequency Residual-Guided Dynamic Perceptual Network for Remote Sensing Image Haze Removal," in IEEE Transactions on Geoscience and Remote Sensing, vol. 63, pp. 1-16, 2025, Art no. 5612416, doi: 10.1109/TGRS.2025.3543728.
+keywords: {Feature extraction;Atmospheric modeling;Image reconstruction;Training;Remote sensing;Scattering;Logic gates;Image restoration;Frequency-domain analysis;Degradation;Dynamic channel weighting;haze removal;remote sensing image;residual information;spatial-frequency complementarity},
 ```
 
 ```
