@@ -115,6 +115,16 @@ python test.py
 ## Citation
 If our work assists your research, feel free to give us a star ⭐ or cite us using:
 ```
+@ARTICLE{10892218,
+  author={Sun, Hang and Yao, Zhaoru and Du, Bo and Wan, Jun and Ren, Dong and Tong, Lyuyang},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Spatial–Frequency Residual-Guided Dynamic Perceptual Network for Remote Sensing Image Haze Removal}, 
+  year={2025},
+  volume={63},
+  number={},
+  pages={1-16},
+  keywords={Feature extraction;Atmospheric modeling;Image reconstruction;Training;Remote sensing;Scattering;Logic gates;Image restoration;Frequency-domain analysis;Degradation;Dynamic channel weighting;haze removal;remote sensing image;residual information;spatial-frequency complementarity},
+  doi={10.1109/TGRS.2025.3543728}}
 
 ```
 
